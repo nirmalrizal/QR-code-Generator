@@ -6,4 +6,4 @@ It uses Google Chart Api for generating QR code.
 ->Type text for QR Code<br>
 ->Press Generate
 #Live Demo at
-http://www.qrcode.nirmalrizal.com.np
+http://qrcode.nirmalrizal.com.np
