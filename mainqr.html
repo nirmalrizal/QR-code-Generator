@@ -1,0 +1,16 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>QR Code Generator</title>
+  </head>
+  <body>
+    <form action='https://chart.googleapis.com/chart' method='POST' id='post_form'
+          onsubmit="this.action = 'https://chart.googleapis.com/chart?chid=' + (new Date()).getMilliseconds(); return true;">  <input type='hidden' name='cht' value='qr' />
+      <input type='hidden' name='cht' value='qr' />
+      <input type='hidden' name='chs' value='500x500' />
+      <label>Enter your text :</label><br>
+      <input type='text' name='chl' /><br>
+      <input type='submit' value="Generate" />
+    </form>
+  </body>
+</html>
